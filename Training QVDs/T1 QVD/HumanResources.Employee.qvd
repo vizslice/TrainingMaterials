@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50621</QvBuildNo>
+   <CreatorDoc>C:\Users\QLIK\Documents\Qlik\Sense\Apps\SQL Extractor.qvf</CreatorDoc>
+   <CreateUtcTime>2019-09-09 14:31:18</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>HumanResources.Employee</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>BusinessEntityID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>290</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>1450</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>NationalIDNumber</FieldName>
+       <BitOffset>23</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>290</NoOfSymbols>
+       <Offset>1450</Offset>
+       <Length>3141</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>LoginID</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>290</NoOfSymbols>
+       <Offset>4591</Offset>
+       <Length>7074</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>OrganizationNode</FieldName>
+       <BitOffset>80</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>11665</Offset>
+       <Length>15</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>OrganizationLevel</FieldName>
+       <BitOffset>73</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>11680</Offset>
+       <Length>20</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>JobTitle</FieldName>
+       <BitOffset>9</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>67</NoOfSymbols>
+       <Offset>11700</Offset>
+       <Length>1694</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>BirthDate</FieldName>
+       <BitOffset>55</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>YYYY-MM-DD</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>275</NoOfSymbols>
+       <Offset>13394</Offset>
+       <Length>1375</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>MaritalStatus</FieldName>
+       <BitOffset>82</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>14769</Offset>
+       <Length>6</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Gender</FieldName>
+       <BitOffset>83</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>14775</Offset>
+       <Length>6</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>HireDate</FieldName>
+       <BitOffset>47</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>YYYY-MM-DD</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>164</NoOfSymbols>
+       <Offset>14781</Offset>
+       <Length>820</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SalariedFlag</FieldName>
+       <BitOffset>84</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>15601</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>VacationHours</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>100</NoOfSymbols>
+       <Offset>15611</Offset>
+       <Length>500</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SickLeaveHours</FieldName>
+       <BitOffset>41</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>51</NoOfSymbols>
+       <Offset>16111</Offset>
+       <Length>255</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CurrentFlag</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>16366</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>rowguid</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>290</NoOfSymbols>
+       <Offset>16371</Offset>
+       <Length>11020</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ModifiedDate</FieldName>
+       <BitOffset>85</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>YYYY-MM-DD hh:mm:ss.ffffff</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>27391</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>11</RecordByteSize>
+   <NoOfRecords>290</NoOfRecords>
+   <Offset>27405</Offset>
+   <Length>3190</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+                         	   
+                                                                      !   "   #   $   %   &   '   (   )   *   +   ,   -   .   /   0   1   2   3   4   5   6   7   8   9   :   ;   <   =   >   ?   @   A   B   C   D   E   F   G   H   I   J   K   L   M   N   O   P   Q   R   S   T   U   V   W   X   Y   Z   [   \   ]   ^   _   `   a   b   c   d   e   f   g   h   i   j   k   l   m   n   o   p   q   r   s   t   u   v   w   x   y   z   {   |   }   ~      Ä   Å   Ç   É   Ñ   Ö   Ü   á   à   â   ä   ã   å   ç   é   è   ê   ë   í   ì   î   ï   ñ   ó   ò   ô   ö   õ   ú   ù   û   ü   †   °   ¢   £   §   •   ¶   ß   ®   ©   ™   ´   ¨   ≠   Æ   Ø   ∞   ±   ≤   ≥   ¥   µ   ∂   ∑   ∏   π   ∫   ª   º   Ω   æ   ø   ¿   ¡   ¬   √   ƒ   ≈   ∆   «   »   …       À   Ã   Õ   Œ   œ   –   —   “   ”   ‘   ’   ÷   ◊   ÿ   Ÿ   ⁄   €   ‹   ›   ﬁ   ﬂ   ‡   ·   ‚   „   ‰   Â   Ê   Á   Ë   È   Í   Î   Ï   Ì   Ó   Ô      Ò   Ú   Û   Ù   ı   ˆ   ˜   ¯   ˘   ˙   ˚   ¸   ˝   ˛   ˇ                      	  
+                                               !  "  295847284 245797967 509647174 112457891 695256908 998320692 134969118 811994146 658797903 879342154 974026903 480168528 486228782 42487730 56920285 24756624 253022876 222969461 52541318 323403273 243322160 95958330 767955365 72636981 519899904 277173473 446466105 14417807 948320468 410742000 750246141 330211482 801758002 754372876 999440576 788456780 442121106 6298838 461786517 309738752 458159238 339712426 693325305 276751903 500412746 66073987 33237992 690627818 912265825 844973625 132674823 565090917 9659517 109272464 233069302 652535724 10708100 571658797 843479922 827686041 92096924 494170342 414476027 582347317 8066363 834186596 63179277 537092325 752513276 36151748 578935259 443968955 138280935 420023788 363996959 227319668 301435199 370989364 697712387 943170460 413787783 58791499 988315686 947029962 1662732 769680433 7201901 294148271 90888098 82638150 390124815 826454897 778552911 718299860 674171828 912141525 370581729 152085091 431859843 204035155 153288994 360868122 455563743 717889520 801365500 561196580 393421437 630184120 113695504 857651804 415823523 981597097 54759846 342607223 563680513 398737566 599942664 222400012 334834274 211789056 521265716 586486572 337752649 420776180 584205124 652779496 750905084 384162788 502058701 578953538 273260055 1300049 830150469 45615666 964089218 701156975 63761469 25011600 113393530 339233463 872923042 163347032 56772045 886023130 386315192 160739235 604664374 733022683 764853868 878395493 993310268 319472946 568596888 97728960 212801092 322160340 812797414 300946911 404159499 712885347 275962311 514829225 377784364 65848458 539490372 60114406 498138869 271438431 351069889 476115505 746373306 364818297 87268837 585408256 259388196 860123571 551346974 568626529 587567941 862951447 545337468 368920189 969985265 305522471 621932914 551834634 713403643 435234965 187369436 456839592 399658727 634335025 761597760 295971920 918737118 370487086 632092621 19312190 992874797 749211824 746201340 436757988 693168613 440379437 332349500 835460180 687685941 199546871 167554340 20244403 398223854 885055826 343861179 131471224 381772114 403414852 345106466 540688287 242381745 260770918 260805477 685233686 981495526 621209647 470689086 368691270 141165819 553069203 879334904 28414965 153479919 646304055 552560652 184188301 535145551 476980013 416679555 264306399 619308550 332040978 30845 363923697 60517918 931190412 363910111 663843431 519756660 480951955 121491555 895209680 603686790 792847334 407505660 482810518 466142721 367453993 381073001 785853949 20269531 437296311 280633567 231203233 441044382 858323870 749389530 672243793 58317344 314747499 671089628 643805155 929666391 525932996 112432117 502097814 841560125 191644724 615389812 234474252 716374314 61161660 139397894 399771412 987554265 90836195 481044938 758596752 982310417 954276278 668991357 134219713 adventure-works\ken0 adventure-works\terri0 adventure-works\roberto0 adventure-works\rob0 adventure-works\gail0 adventure-works\jossef0 adventure-works\dylan0 adventure-works\diane1 adventure-works\gigi0 adventure-works\michael6 adventure-works\ovidiu0 adventure-works\thierry0 adventure-works\janice0 adventure-works\michael8 adventure-works\sharon0 adventure-works\david0 adventure-works\kevin0 adventure-works\john5 adventure-works\mary2 adventure-works\wanida0 adventure-works\terry0 adventure-works\sariya0 adventure-works\mary0 adventure-works\jill0 adventure-works\james1 adventure-works\peter0 adventure-works\jo0 adventure-works\guy1 adventure-works\mark1 adventure-works\britta0 adventure-works\margie0 adventure-works\rebecca0 adventure-works\annik0 adventure-works\suchitra0 adventure-works\brandon0 adventure-works\jose0 adventure-works\chris2 adventure-works\kim1 adventure-works\ed0 adventure-works\jolynn0 adventure-works\bryan0 adventure-works\james0 adventure-works\nancy0 adventure-works\simon0 adventure-works\thomas0 adventure-works\eugene1 adventure-works\andrew0 adventure-works\ruth0 adventure-works\barry0 adventure-works\sidney0 adventure-works\jeffrey0 adventure-works\doris0 adventure-works\diane0 adventure-works\bonnie0 adventure-works\taylor0 adventure-works\denise0 adventure-works\frank1 adventure-works\kendall0 adventure-works\bob0 adventure-works\pete0 adventure-works\diane2 adventure-works\john0 adventure-works\maciej0 adventure-works\michael7 adventure-works\randy0 adventure-works\karan0 adventure-works\jay0 adventure-works\charles0 adventure-works\steve0 adventure-works\david2 adventure-works\michael3 adventure-works\steven0 adventure-works\carole0 adventure-works\bjorn0 adventure-works\michiko0 adventure-works\carol0 adventure-works\merav0 adventure-works\reuben0 adventure-works\eric1 adventure-works\sandeep0 adventure-works\mihail0 adventure-works\jack1 adventure-works\patrick1 adventure-works\frank3 adventure-works\brian2 adventure-works\ryan0 adventure-works\cristian0 adventure-works\betsy0 adventure-works\patrick0 adventure-works\danielle0 adventure-works\kimberly0 adventure-works\tom0 adventure-works\kok-ho0 adventure-works\russell0 adventure-works\jim0 adventure-works\elizabeth0 adventure-works\mandar0 adventure-works\sameer0 adventure-works\nuan0 adventure-works\lolan0 adventure-works\houman0 adventure-works\zheng0 adventure-works\ebru0 adventure-works\mary1 adventure-works\kevin2 adventure-works\john4 adventure-works\christopher0 adventure-works\jinghao0 adventure-works\alice0 adventure-works\jun0 adventure-works\suroor0 adventure-works\john1 adventure-works\linda0 adventure-works\mindaugas0 adventure-works\angela0 adventure-works\michael2 adventure-works\chad0 adventure-works\don0 adventure-works\michael4 adventure-works\kitti0 adventure-works\pilar0 adventure-works\susan0 adventure-works\vamsi0 adventure-works\kim0 adventure-works\matthias0 adventure-works\jimmy0 adventure-works\david4 adventure-works\paul0 adventure-works\gary0 adventure-works\rob1 adventure-works\baris0 adventure-works\nicole0 adventure-works\michael1 adventure-works\eric0 adventure-works\ivo0 adventure-works\sylvester0 adventure-works\anibal0 adventure-works\samantha0 adventure-works\hung-fu0 adventure-works\prasanna0 adventure-works\min0 adventure-works\olinda0 adventure-works\krishna0 adventure-works\paul1 adventure-works\cynthia0 adventure-works\jianshuo0 adventure-works\sandra0 adventure-works\jason0 adventure-works\andy0 adventure-works\michael5 adventure-works\rostislav0 adventure-works\yuhong0 adventure-works\hanying0 adventure-works\raymond0 adventure-works\fadi0 adventure-works\lane0 adventure-works\linda1 adventure-works\shelley0 adventure-works\terrence0 adventure-works\jeff0 adventure-works\kirk0 adventure-works\laura0 adventure-works\alex0 adventure-works\andrew1 adventure-works\chris0 adventure-works\jack0 adventure-works\david1 adventure-works\garrett0 adventure-works\susan1 adventure-works\george0 adventure-works\david3 adventure-works\marc0 adventure-works\eugene0 adventure-works\benjamin0 adventure-works\reed0 adventure-works\david7 adventure-works\russell1 adventure-works\john3 adventure-works\jan0 adventure-works\katie0 adventure-works\michael0 adventure-works\nitin0 adventure-works\barbara0 adventure-works\john2 adventure-works\stefen0 adventure-works\shane0 adventure-works\yvonne0 adventure-works\douglas0 adventure-works\janeth0 adventure-works\robert0 adventure-works\lionel0 adventure-works\brenda0 adventure-works\alejandro0 adventure-works\fred0 adventure-works\kevin1 adventure-works\shammi0 adventure-works\rajesh0 adventure-works\lorraine0 adventure-works\paula1 adventure-works\frank0 adventure-works\brian0 adventure-works\tawana0 adventure-works\ken1 adventure-works\gabe0 adventure-works\lori0 adventure-works\stuart0 adventure-works\greg0 adventure-works\scott0 adventure-works\kathie0 adventure-works\belinda0 adventure-works\hazem0 adventure-works\peng0 adventure-works\sootha0 adventure-works\andreas0 adventure-works\mark0 adventure-works\sean0 adventure-works\zainal0 adventure-works\tengiz0 adventure-works\sean1 adventure-works\karen0 adventure-works\chris1 adventure-works\ascott0 adventure-works\sairaj0 adventure-works\william0 adventure-works\alan0 adventure-works\brian1 adventure-works\gary1 adventure-works\christian0 adventure-works\lori1 adventure-works\stuart1 adventure-works\jo1 adventure-works\pat0 adventure-works\magnus0 adventure-works\laura1 adventure-works\paula0 adventure-works\grant0 adventure-works\hao0 adventure-works\vidur0 adventure-works\mindy0 adventure-works\willis0 adventure-works\david6 adventure-works\deborah0 adventure-works\candy0 adventure-works\bryan1 adventure-works\barbara1 adventure-works\dragan0 adventure-works\janet0 adventure-works\mike0 adventure-works\wendy0 adventure-works\sheela0 adventure-works\mikael0 adventure-works\arvind0 adventure-works\linda2 adventure-works\fukiko0 adventure-works\gordon0 adventure-works\frank2 adventure-works\eric2 adventure-works\erin0 adventure-works\ben0 adventure-works\annette0 adventure-works\reinout0 adventure-works\david5 adventure-works\jean0 adventure-works\stephanie0 adventure-works\ashvini0 adventure-works\peter1 adventure-works\karen1 adventure-works\ramesh0 adventure-works\dan0 adventure-works\fran√ßois0 adventure-works\dan1 adventure-works\janaina0 adventure-works\brian3 adventure-works\stephen0 adventure-works\michael9 adventure-works\linda3 adventure-works\jillian0 adventure-works\garrett1 adventure-works\tsvi0 adventure-works\pamela0 adventure-works\shu0 adventure-works\jos√©1 adventure-works\david8 adventure-works\tete0 adventure-works\syed0 adventure-works\lynn0 adventure-works\amy0 adventure-works\rachel0 adventure-works\jae0 adventure-works\ranjit0 System.Byte[]             Chief Executive Officer Vice President of Engineering Engineering Manager Senior Tool Designer Design Engineer Research and Development Manager Research and Development Engineer Tool Designer Senior Design Engineer Marketing Manager Marketing Assistant Marketing Specialist Vice President of Production Production Control Manager Production Supervisor - WC60 Production Technician - WC60 Production Supervisor - WC10 Production Technician - WC10 Production Supervisor - WC50 Production Technician - WC50 Production Supervisor - WC30 Production Technician - WC30 Production Supervisor - WC40 Production Technician - WC40 Shipping and Receiving Supervisor Stocker Shipping and Receiving Clerk Production Supervisor - WC20 Production Technician - WC20 Production Supervisor - WC45 Production Technician - WC45 Quality Assurance Manager Quality Assurance Supervisor Quality Assurance Technician Document Control Manager Control Specialist Document Control Assistant Master Scheduler Scheduling Assistant Facilities Manager Maintenance Supervisor Janitor Facilities Administrative Assistant Chief Financial Officer Human Resources Manager Human Resources Administrative Assistant Recruiter Benefits Specialist Accounts Manager Accounts Receivable Specialist Accountant Accounts Payable Specialist Finance Manager Purchasing Manager Buyer Purchasing Assistant Assistant to the Chief Financial Officer Information Services Manager Network Manager Network Administrator Application Specialist Database Administrator Vice President of Sales North American Sales Manager Sales Representative Pacific Sales Manager European Sales Manager êb  "f  —j  ˙j  @K  tT  X|  P{  Ãp  (y  [o   U  ê  ^q  ÉW  Pk  ú|  ão  go  Nk  ◊z  Æ|  vY  `q  sv  2v   Q  ◊}  √q  Ä  @{  ún  ÿm  ¬|  Ám  Æx  è{  á_  Kf  ˆO  i  ®x  “~  ÚÄ  æz  òl  à~  ÇP  <P  ŸP  ßP  EP  ?P  ±{  BP  J~  f  J{  õq  ˇm  Ÿ  ¬P  óN   i  Vd  "d  ôl  Bf  6Ç  Ey    cn  êw  2Ä  ±u  ±~  Òv  }  Å_  1e  ëe  i  çi  oJ  Ee  _g  ?x  ä_  Æ{  ¥{  ∆{  õr  h  Ø{  ÇÄ  {  ˚o  q  @h  ?f  ów  Ω{  ∫{  √{     do  rq  Ço  ·o  Á|  …o  mÇ  j  AÅ  Òe  ¢  æ|  ∑g  zo  *n  Rx  ci  √y  #w  bs  ~   i  ÅÅ  {  ⁄Å  Zy  u  e  çj  g}  uf  L  íj  >d  Ef  ùÅ  xt  ¨  7l  ‰~  ëw  v  ›n  =n  ∂j  ’_  *  üj  Ûn  
+|  0y  Ïm  ly  ås  –Ä  ö~  Ì~  w  Èq  «x  »v  Gn  it  ›{  Â|  πz    Qz  )u  Ru  ‘j  y  y  |  nq  {  el  ˘Ä  e  èz  àg  Çy  ÿ}  ßv  ‚~  Æz  :s  Ún  Ÿ~  J|  }  n  6Ä  &t  ~  Ïr  e  öÅ  wc  o  Ωl  ~_  S  ,{  ±l  çl  ﬂÄ  h|  il  ≥|  
+b  Ö}  »t  2x  πx  ~e  Ål  ¥d  ¨f  ~M  <f  ul  ⁄l  Hn  Øx  y  p  )w  •l  ·x  sl  
+n  ˚p  mq  ˆx  so  øx  ~j  .e  (e  x_  ∂J  øg  Qe  ¬h  ˝[  ]l  .x  3n  πr  ’o  ãk  ey  zn  ÊI  mb  ^r  gY  %k  ßi  Èj  Ja  <[  øi  Oo  k  [R  ¿k  Ra  l  S M M F ìõ  6ö  Âô  ˝ô  ö  /ö  ¨õ  Éõ  ïõ   ú  Eû  ö  Wû  ^û  qû  ö  ƒò  Öû  åû  fû  ¬õ  rõ  ëõ  óõ  ßõ  gõ  Qö  Úó  úõ  ¢õ  âõ  wõ  ¥õ  Æõ  «õ  ù  ù  ö  öõ  Åõ  áõ  nõ  æõ  ∫õ  ö  8ö  Jö  ]ö  oö  Ûú  >ö  ©õ  ªõ  kõ  ~õ  êõ  dö  ù  (ù  Èú  ≈õ  ÷ú  ≥õ  uõ  yõ  åõ  üõ  ∞õ  √õ  
+ù  ù  ú  0ù  ù  ﬁú  äõ  |õ  Âú  ù  %ù  ˛ú  7ù  Øõ  ãõ  ûõ  iõ  Ÿú  Ïú  ,ù  ù  mõ  tõ  Üõ  õ  íõ  ôõ  §õ  ∂õ  ±õ  Ωõ  ƒõ  Äõ  àõ  jõ  èõ  ®õ  ¯ú  ù  1ù  ù  ñõ  †õ  ∑õ  •õ  võ  }õ  ∆õ  õõ  πõ  hõ  {õ  ¶õ  ≤õ  ∏õ  oõ  Çõ  ≠õ  ¿õ  îõ  lõ  Öõ  ºõ  »õ  çõ  ’ú  !ù  2ù  4ù  ù  Ëú  ™õ  sõ  £õ  xõ  ùõ  ¡õ  óû  ‰ú  ˆú  ˝ú  	ù  ù  6ù  Fû  Yû  qõ  çû  cû  ˆû  ﬁ†  É°  –°  7†  c†         c         0         =   >   ?         	            (   *   +   )   ,   -   .   /   @   P                                    R   #   '   "   &   %   $   A   S   X   T   U   V   W   Y   O   
+            Q                         !   F   H   <   B   ;   C   `   a   _   b   N       ]   ^   Z   \   [   M   I   D   E   G   J   K   L   4   :   5   1   6   8   7   2   3   9   E         P         2   3   @      (   )   ,   *   +   4   <                      =   %   '   &   >   ?   ;         #   !   "   $   7   8   5   1   D   C   B   A   :   6   9   .   /   0   -      f01251e5-96a3-448d-981e-0f99d789110d 45e8f437-670d-4409-93cb-f9424a40d6ee 9bbbfb2c-efbb-4217-9ab7-f97689328841 59747955-87b8-443f-8ed4-f8ad3afdf3a9 ec84ae09-f9b8-4a15-b4a9-6ccbab919b08 e39056f1-9cd5-478d-8945-14aca7fbdcdd 4f46deca-ef01-41fd-9829-0adab368e431 31112635-663b-4018-b4a2-a685c0bf48a4 50b6cdc6-7570-47ef-9570-48a64b5f2ecf eaa43680-5571-40cb-ab1a-3bf68f04459e f68c7c19-fac1-438c-9bb7-ac33fcc341c3 1d955171-e773-4fad-8382-40fd898d5d4d 954b91b6-5aa7-48c2-8685-6e11c6e5c49a 46286ca4-46dd-4ddb-9128-85b67e98d1a9 54f2fdc0-87c4-4065-a7a8-9ac8ea624235 e87029aa-2cba-4c03-b948-d83af0313e28 1b480240-95c0-410f-a717-eb29943c8886 64730415-1f58-4e5b-8fa8-5e4daeba53b4 1f6da901-c7f7-48a8-8eef-d81868d72b52 43cca446-da1c-454c-8530-873ad2923e1b ad0d7626-4506-45c4-898f-9d7a0e13aabd af21f1b7-0691-48ad-b325-b8f2d7b2268a 90899830-127e-4876-85ca-7f6e03025281 53575c58-fba1-4c1a-b8ff-95e050b44393 d7314f24-2af1-429c-9bbb-4038f45f3e6c 69d5d162-e817-45e7-9dec-5d9b8310e7b1 83ffaac6-b895-481f-b897-14f965d4da47 aae1d04a-c237-4974-b4d5-935247737718 cdb2c6df-93e5-4558-91c8-424d5e7c658b fc12677f-42f8-4790-ad69-685088ed7e5f 352d6e2f-655b-49a2-9fec-efd7d8cd0d30 bdadeb5c-a596-4da1-88ba-842c7a0cc10f 51fde6ac-bd50-467c-90e5-10ca7310455c 6adbd932-0da5-4f5c-af67-8e3a53630896 ca5d1935-44e2-4c45-93bb-809e59f56796 9e912556-88ba-41ee-b946-cb84ab4c1102 77b384c7-affb-4816-992b-f5b3034ee4ff 891c27f4-28cc-44bb-bea3-da5ea7fbe957 8ef22fb3-af37-4b44-8862-d60a7cb09d82 2cc71b96-f421-485e-9832-8723337749bb 4652d4e4-6a27-47ed-9f51-c377e293da28 82e52d5a-165b-4c6d-9773-c3a6b6332ecd 6b7eb306-9a00-496a-98a9-4e94fe72f77c f734d38a-56b5-471e-8ded-a682e958a9b3 8ff3af67-32f2-4a08-98c3-a40f842d41a3 33543b35-77da-4600-a41b-1eafea0ad643 08365b05-c143-4260-a93c-6b69418b1946 3e3b6905-209e-442e-b8a8-9a0980241c6a 756a60ae-378f-43d8-9f93-1e821d1eaf52 40d603d9-7f99-48b7-a580-b17cf429bed2 6e086f41-b81d-4bdc-9f13-0eec488dc43e 692b8826-03b4-4c3b-82fc-1fc6f1409689 c334b2d2-0c56-4906-9095-f1d07a98cbec e950a52a-df61-4fec-9063-545664d65b89 28f7ef89-2793-4989-b67d-25046543c1e3 77878c43-f16e-437d-892f-3cfcc0715a0a b395cd84-77ba-4d3c-a49d-d9e8d6cf100b 65207627-5521-4a8e-ad3c-b2f1b5226b85 68616aea-81e5-4940-a7e4-6fba882bccf6 1f1d813d-3edc-4274-8e9b-4519d71685b6 721a2921-c415-46de-9111-13f25f428b8b d4ed1f78-7c28-479b-bfef-a73228ba2aaa 3229d93f-6a14-4bac-abc5-a91b9ecfb4d3 492b24bd-bde9-4371-b96e-ccd72264b91f 9a08108d-e039-4862-8f93-55f18017ad72 08b1ba74-dd80-4fda-8327-93268b84977b 18187809-5294-474f-85a1-d5be6bd518d6 cdc11292-df74-4fb0-8676-5b2aa4687142 12f678d7-ead3-4cf4-8518-a19aacf2a6d4 fc617bb8-d2a3-4374-873c-8ef38d80127d 1ad772d7-7b4a-4a7b-8676-49dd7608cb94 0a8937c9-68aa-4d48-ba4e-b40493d764aa c76a41f1-a390-4ae4-a82a-2a87764c6391 a942e1e0-2d5e-4858-97c0-947020e96860 f359f5b6-5e18-4c62-8531-14d951911ce5 8d0182a3-5b59-4eea-9b3c-c7f05da9a2ce 2ee7914a-62d3-473b-a0e1-e4e55341ec4e 71eee2a6-b9b3-4bf4-8949-01239df7c901 55f62e38-9457-46c8-a824-e46a3117a935 606c21e2-3ec0-48a6-a9fe-6bc8123ac786 03a9ba14-0d5b-4671-b851-2c1721efbf01 d308d387-f7f3-4b5f-abda-faf5574245cd 296c52ae-169f-4292-975d-c508476dcecf 9af24acc-ea3e-4efe-b5e3-4762c496d57c c294f676-caaf-4924-9730-bc81ae408be1 10e5bd6f-2b9c-4192-a94d-6a2d50ea1adb 5be16416-8570-417d-9e54-047db468b5e9 ebcdba1c-6c1d-4d36-90f7-1893755c85e3 d5fbe9e6-b8c5-484c-b4b8-48059e0ef267 bb886159-1400-4264-b7c9-a3769beb1274 ce256b6c-1eee-43ed-9969-7cac480ff4d7 b3bf7fc5-2014-48ce-b7bb-76124fa8446c 57fb2c0f-b105-49f0-967a-88f3d743cb3f 6b10192f-d570-47c4-82c9-3d979b1efdc1 6175876e-8fcc-4917-be06-fc358515e6df 62a9f73f-6443-4f2f-b864-18186614bfb6 1f0e068a-48c5-40bf-8190-565150efdadd a703169f-1563-488e-914d-d784fd07f29a a6089357-2f2f-48cc-ab3c-d9b75a3c09d7 9b9b768d-7cc1-4dce-87cb-765ab73a6aff 9ce8b2e8-9944-4ba5-97de-441d8314f161 c75f2740-ace3-4ebf-91c5-7ab352e1095f 6c25a32b-88b5-4f84-a129-f7f688dfa588 6dc9f7d0-5664-4e4a-90f5-7ab85ebb02e6 8b21e53d-e705-479a-b32e-6e63ac2f4bcd d4cf23d9-21b6-45e4-827c-22890df0373b f71c6055-557b-4660-86ff-8c0fa14b24e6 2bca07d3-f2ac-4406-904f-e09156f3eb3e 7e632b21-0d11-4bba-8a68-8cae14c20ae6 9c5f84d1-fb96-4d82-92a1-f932903deaad 14010b0e-c101-4e41-b788-21923399e512 b6998410-ee0f-4307-9e6e-fe348f11012d fb84759c-b687-43b2-8727-125efe0f5e13 1d784088-dacb-4185-9f60-3d2db4925ba5 4958e1c3-c872-4222-954e-09d2060ea7ef c6eb2566-cf28-4602-9a25-5b91c8728838 83a32d4c-4725-478f-9997-91739bb957ba e720053d-922e-4c91-b81a-a1ca4ef8bb0e eb27c026-9470-4450-8d5e-1f38a41793b5 49a05524-fa34-45b1-95bc-489901dc5b50 01bcce22-d63a-4c3f-9ba8-d3d5a4c3bd52 923ecfd6-e202-429a-9141-6cb183531439 a8838ab2-99de-415c-8675-d82ebf1c4752 6150f197-7923-40d4-84f2-936207d468ab 54ed63dc-c62c-4cc7-89c2-015df49c49a5 96442787-9520-4955-a457-38afddb6ff13 516538e8-115b-44f4-aa7b-e6c1d9f8adfc 0217049e-1566-42b6-8027-41b751e2b00b a03d6052-1f85-4ebe-aac9-b67cfdcd91a6 54fda597-6822-42b4-b128-63eca03071f2 232d68bf-df58-48f9-9235-53bd4b009b4b 15671e3b-016f-41fd-840b-5a9f7d776d9a 416bf905-7d6c-4692-8fd6-40f6c4f9ecc4 2abcf39b-88d7-49fa-820a-83d223322ba5 d83a26f3-7ea7-477b-a5bb-7eaadfc13a09 d9c43d08-3882-4e5c-bdf0-f6bd7004cd04 bc18a829-f0ce-4eaf-9785-2d84c86f925a 1629eddd-d0ae-4cb9-a59c-3a175f7027e5 065d8d5f-9504-4ffe-98dc-e69677f19f15 72ed240a-0fd8-4423-8a49-9078ba6bcf6c cc75c35d-1566-43fa-b2e9-d1e508efdcd1 6456cec3-9b1e-4ebc-9fd8-732b93363f65 42a506a5-0ac0-4148-b702-bb7b804ef98c dc5ba622-b860-41ee-af92-5feb4779b589 f9e1dc46-0d03-4a8a-b693-1a964bc13e6c 6fff136a-9664-4eb9-9243-fac76e21b9dd f69f3ff9-e1e0-4419-a6bf-f705e1556160 c16c501d-942d-4eb0-b5c4-ef8119fbeba2 615a6bfe-3046-4037-9764-238535f725be 2b0876d4-8996-4e71-a613-be2e98e7accf 00027a8c-c2f8-4a31-aba8-8a203638b8f1 f1a684f4-02db-4b22-8977-6d8d3a21100e 618b71bc-6e8c-492d-8862-b9efb7a4e06a 9f01e1fb-b893-40cc-9f5c-aaf89f9b7af5 9923376f-26d0-4845-9d99-cc3d696caeb8 042427b8-3883-4a87-a6a3-724ee1690f49 f963f913-449e-4ebb-bfda-fc0c3010db65 13942056-2930-4490-83ce-af2386d5a5e7 4da76442-5eef-41fb-ae19-16c55714f9ad 7c7d459e-1f49-427d-9bd5-de31880c85dc 08d25baa-167b-499c-8b51-31dcc856a8cf fccd65ba-2702-4409-ae56-75af1710ac78 b96bc9c2-5a25-4a9b-887a-c7c10e47b80c a2a2cf20-4e5c-45f7-a7bd-1b94f0c3a43a 300223f3-5587-4230-909b-d9c4afd6d683 69a47230-70ee-48fd-ac15-c39f3712ff14 ed7ee92e-a9d0-4e3a-8dee-4b143e459f7e a6f5f72f-aa03-41b7-8b6e-b123bd360753 f73d75d5-b47b-46ee-ad11-7bf13dd6c55d 01b119a2-2af3-4775-818e-b421fecb07a7 84c358d4-2493-452c-b7d6-b212c893a009 1f151abc-db4a-431a-8a5d-15f46c5b8ffc 1ba1d374-18ae-48ed-938f-6f5d2eec4d4d f1a6f824-895b-4a0f-af1b-05fba703e69f b3967c00-7014-4960-af15-b1a6d3094f6f 85afb689-7eab-41a8-b154-9446195d5bde d54c7989-2675-4ef3-b392-370a8d264b2b 96c7eab1-6dea-4c59-afd8-923f0e8de1f6 975f827d-be71-4eb1-8dbf-e6c451d1fad5 5be8b211-cbe5-45d8-84fd-23f36a881473 4fd6fe82-535a-4dd1-beb1-154a8b5e42f0 ebbc6787-3f2d-4f6b-9ea3-4def02ef382e 045c9cbb-3448-4599-9fa9-6c7a9f82f832 bab69951-28ad-4bca-b5ac-032746d0cc6f b9eebf9f-f694-4bc2-98ec-9b4fb0379edf 2625c358-672a-4000-ad67-b8cd3f318285 83c6dabf-fd7d-4f5b-bb22-eb7eebb9a772 1ab0edeb-7558-4734-8423-5a11b44dca35 8261b8cb-bc3f-4bce-b364-86035d870263 2203154e-5ebd-4aca-99be-d835a3309d03 231b1798-f67b-45c1-9688-265180f93d28 714d519b-375e-4c5a-8491-c758d00cf95f 8c7321d2-2c64-4902-9d64-8f5c1eb7f747 45358ae8-0b0e-4c11-90bb-dac3ec0d5c82 dc7e95ff-275e-41c2-8ed3-686864f0540a 9bef0c94-7969-4905-9a42-ce469c754800 aca7b40c-7ac0-4daa-b4c7-1051d850d7d9 a63966b6-9ad6-40bc-afd4-a83745879f4d 5dd2be46-204f-4af3-91f5-5ef082f6d6a6 dd9ad278-ed17-40cf-8619-baf1bb9d1cf2 18d594a8-b4ed-43c0-9c43-6033feaadf4e bb4a3e50-232e-4212-9faf-e67429febc7d 699c00d8-c4ab-4cd2-a48f-37cbcb5bfcca 790c9a7c-264c-4d48-a9d3-e2571a8011d8 23d436fc-08f7-4988-8b4d-490aa4e8b7e7 4f361b4f-7920-4037-9a0a-46d616f9b9c7 a36b5d6b-72a5-47f8-9f6b-5d922130e760 e35da50a-bb51-4e08-8b8d-87ef4650247a 25fc84d7-e013-44b8-82cd-63cd4723af81 f714b5ec-ca7c-4e6e-a812-2c5a119f4c30 05c84608-f445-4f9d-bb5c-0828c309c29d e249d613-36c9-4544-9b6f-6ce50e5e0da5 a3dadf19-27f0-460a-9888-ce6caa9e3583 f4ddd64f-dffe-4df3-aa17-d6bea1924818 6b63ef27-2c55-4f4c-be29-fce8b694dc4a 34e128cf-d904-4327-8014-9df0d5de7d08 dc60eeed-9f9f-4435-8666-4de4fafde9c3 c609b3b2-7969-410c-934c-62c34b63c4ee f78657a9-83ef-4b4d-9809-3c4c6d1a7bb4 8a41ed23-7ae2-4c15-aa5d-9496e721f848 45c358fb-9c7f-4d36-8ec7-3d89e9fd07f4 13909262-4136-492f-bca3-0b0e3773b03e 4d36a720-ce32-4c47-866a-db7844449309 1a68cd62-6fe9-4613-90d4-2cd178e4e54a de321854-b076-4d59-bb7b-42152031b108 dfa02733-c26e-4e31-99d8-9167e4e5131d 62f6ec59-5635-44f3-9cc1-2d8eeaf90a05 4611c7c5-90a0-407f-b054-93bd51533609 929fe187-ee24-4f5f-af2a-f96324f09423 cc2791e6-7629-49c5-922a-81445afdf033 39af5cca-9b52-41e5-b510-72901d2578f6 49238447-30ee-4009-993f-0b6c756ab436 0a4bcc09-ace5-4481-9067-8b9ed70eca18 d5e315a6-bd65-4d67-9d5f-81ef5c4ef8a6 65028f15-4149-4de5-b203-9d7ec86baf87 4511abba-7f34-400e-907b-a663c20e1a41 fd53c4c8-b34e-460f-9ee5-747b07fe98b3 47e76b59-b137-4572-ad55-6b3e68c13bd3 834d7ab6-06e6-4944-b42f-028cd4bd388e a1d86ecc-ea17-4b1b-8369-f1d07ab0a469 2dc9d534-f5d1-4a14-8282-0a2a0eb6fd4d 09f75454-028c-46ca-bc08-0147bd0220d7 9e9f713b-707c-4f7e-9504-de188052a045 cb3e71ec-a381-4716-87df-d3841ab9795a 3ffba84e-8e97-4649-a5e1-859649d83aae 51c54d34-064b-44f7-a6b1-7702bd491980 0c641d77-8675-493f-9947-8c65136559cd ac35337d-7c75-4dee-bb11-6564f257fe18 8f410408-4aa8-4d67-886d-530bfe4ebe3b 7d6b0155-0191-4599-8394-378ebde63c9a d0fd55ff-42fa-491e-8b3b-ab3316018909 51de26f0-6ed9-4a70-b689-88eb882674b6 ed06f9f4-2123-4c44-89d7-e43e1e1abc2f 36cd6636-c657-4fc7-9bfa-cc1bfa9102a2 2cb2d5c3-c437-49b1-9ffd-faa096f6126f 0423d8d0-1b14-4718-8c17-85e2f98d222f a28ab377-06f5-417a-a5e2-59f459088699 b60712a9-50a5-4296-b892-69c4701834b0 b9641cae-765c-4662-b760-c167a1f2b8b5 9e03395f-4d5d-4a53-880e-174bd8c1db59 9825eb00-8e36-4506-93a2-6ddcdc0b13c3 be81fd77-428c-449f-ab79-48b1cdf53d6a 794a0b1f-c46a-401c-984d-008996fc7092 221cbb7b-8bae-452b-a16f-a67ebb3873c8 2e680c1c-7c02-4343-9626-6f97273414c0 86601e6a-6955-40fc-bb4a-1053a843ce99 45c3d0f5-3332-419d-ad40-a98996bb5531 be190269-4003-4d7f-809e-7b3fdc235da8 71b0d010-5ac5-4e91-8efa-c311c1372a73 0c7f025d-8d56-48ef-86c0-f09db63d0182 2474e1a9-902d-466c-b0b2-6dcac927f753 241535c7-7a31-4a6a-9e0d-a83c30c2edda f3ec557c-8b41-4ee6-bb0c-e3b93aff81e5 86d5fa9e-4bc0-48c8-91dc-1ec467418d11 e19f8de2-0f40-418c-84a2-db48b98dc6a2 4509f387-d73a-43dc-a502-b1c27aa1dc9e a011c97b-081c-4739-996f-c1cac4532f8d 50eecc16-0d0d-43a9-9649-016c06de8d78 bb510fce-0105-4306-b591-6450d9ebf401 7627b9d6-0707-4706-9ad9-0d37506b08ae 4103c891-37e8-4dfc-aeac-b55e2bc1be1c fd3992fb-3067-451d-a09d-73bd53c0feca 1e8f9e91-508f-4d49-acd2-775c836030ed 0c67ce00-de78-4712-908f-06939a2c58d5 86f292db-b73c-429d-9912-800994d809fb 4a9a8407-a680-4a6b-8d03-511cb58f9a8a 66d66445-ee78-4676-9e66-0e22d6109a92 b9bf7741-e0ca-4f37-acde-a4f78c6d03e9 723a5921-d8a1-4659-9bc4-13c4cf7c9c91 604213f9-dd0f-43b4-bdd2-c96e93d3f4bf \£  ‘ØáaÏÅ‰@           Å ÇÄ 
+ÉÜÅÖäÇ
+áéÉ
+
+
+	
+â	êÑ	
+
+
+
+
+
+ãíÖ
+
+çÑÜèîáÉòà			í	îâ	
+
+
+î
+öä
+ñúãëñå& ô¢ç
+$
+õ¶é
+$
+ù®É
+  ™ 
+!ü!&ê!
+" "("
+#°#¢ê#
+$	$*$
+%¢%¨ë%
+&#&,&
+'§'Æí'(%(0(
+)¶)≤ì)
+*'*0*
++®+≤î+
+,),4,
+-™-4É-
+. +.û./"¨/.Ç/
+0"-00
+1"Æ1∂ñ1
+2"/262
+3"∞3∏ó3
+4"1484
+5"≤5êò5
+6$36:67&ã7íô7
+8&48<8
+9&µ9ºö9
+:&6:>:
+;&∑;æõ;
+<&<í<
+=∏= ú=>9>¿>
+?∫?Bù?
+@; @D @
+Aº Aƒù A
+B=!BF!B
+Cæ!C¬û!C
+D?"D@"D
+E¿"E∆ü"E
+F(A#FH#FG*í#Gîå#G
+H*$H $H
+I*ë$Iñ†$I
+J*%J!%J
+K*î%Kö°%K
+L*&L"&L
+M,¬&M ü&MN.C'Nå"'N
+O.´'O£'O
+P.(Pû#(P
+Q.á(Q§(Q
+R.)Rå$)R
+S.ƒ)SLí)S
+T.*T%*T
+U.≈*UŒ•*U
+V F+VL&+VW"Ä+WÄ¶+W
+X"G,XPßX
+Y"»,Y–',Y
+Z"I-ZR®,Z
+[" -[Ä(-[
+\$K.\∫ì-\]&Ö.]ä
+.]
+^&/^†.^
+_&Ñ/_
+/_
+`&L0`Çê/`
+a&é0a)0a
+b&1bÑ©0b
+c&ä1c
+1c
+d&2d™1d
+e ƒ2eÃ*2ef"M3fT´2f
+g"Œ3g“+3g
+h"O4h÷+3h
+i"–4iT¨3i
+j"Q5j÷,-j
+k$“5kÿ4kl&I6lR≠4l
+m&œ6m÷-5m
+n&M7n‘è5n
+o&—7oV.6o
+p&G8p–Æ6p
+q&»8qP/7q
+r&P9r‘Ø7r
+s& 9s 08s
+t& :tÄ∞8t
+u&≠:u19u
+v&N;v“±9v
+w&≤;w2:w
+x0M<xTî:xy2»<yP-;y
+z4I=zR≠;z
+{2 ={Ä2<{
+|4N>|“Ø<|
+}2«>}P=}
+~,S?~J≥=~.‘?⁄3>
+Ä.U@ÄZ¶>Ä
+Å.÷@ÅH1?Å
+Ç.BAÇJü?Ç
+É.∆AÉÃ@É
+Ñ.ABÑH¥@Ñ
+Ö6èBÖ AÖÜ8CÜí≥AÜ
+á8éCá%Bá
+à8DàöBà
+â8äDâä4Câ
+ä8LEäµCä
+ã8ÑEãà5Dã
+å8FåÇ¢Då
+ç8çFç6Eç
+é8GéÑ∂Eé
+è8ÖGè
+7Fè
+ê(UHê⁄∑Fêë*™Hë4-Gë
+í*)Ií¥≤Gí
+ì*®Iì2 Hì
+î*&Jî2∞Hî
+ï*•Jï0Iï
+ñ*Kñ∏Iñ
+ó6íKóî8Jóò8Lò&πJò
+ô8¥Lôº9Kô
+ö8	Mö*èKö
+õ8µMõºLõ
+ú86Nú>åLú
+ù8õNù&Mù
+û87Oû>êMû
+ü:◊Oü\Nü†<WP†‹üN†
+°<ÿP°\3O°
+¢<RQ¢XÉO¢
+£<”Q£J:P£
+§<YR§ÿ∫P§
+•(‘R•Z;Q•¶*#S¶¨ªQ¶
+ß*ßSß0-Rß
+®*?T®¿≠R®
+©*∫T©B<S©
+™*=U™FîS™
+´*†U´(T´
+¨*@V¨FìT¨
+≠*ºV≠ƒ7U≠
+Æ*WÆ®ºUÆ
+Ø*ªWØD=VØ
+∞*"X∞,ªV∞
+±*æX±B"W±
+≤*9Y≤@ûW≤
+≥6êY≥ñ=X≥¥8!Z¥"æX¥
+µ8ôZµ¢>Yµ
+∂8[∂™∫Y∂
+∑8ú[∑$?Z∑
+∏8\∏§øZ∏
+π:ÿ\π\[π∫<3]∫:æ[∫
+ª<ò]ª†\ª
+º<8^º ¿\º
+Ω<§^ΩÆ<]Ω
+æ<K_æ:ï]æ
+ø,÷_øH^ø¿.Z`¿ﬁ¿^¿
+¡.ñ`¡ú
+G¡
+¬.[a¬Œ_¬
+√.‹a√^õ_√
+ƒ.bƒA`ƒ
+≈.›b≈è`≈
+∆.^c∆`a∆
+«.ﬂc«b∑a«
+».`d»‡b»
+….·d…‰ôb…
+ .be ‰Ac 
+À.„eÀb¬cÀ
+Ã:YfÃXdÃÕ<ÆfÕ∂;Õ
+Œ</gŒ∂ªdŒ
+œ<∞gœ∏Baœ
+–<1h–∏7e–
+—<¨h—ÆΩe—
+“>i“†?f“"”@∏i” æf”‘B/j‘6g‘
+’BÆj’∂ºg’
+÷B,k÷.@h÷
+◊B§k◊Ææh◊
+ÿDRlÿXiÿŸFŸlŸXπiŸ
+⁄HKm⁄∫:j⁄
+€H≥m€:øj€
+‹FXn‹\:k‹
+›Jìn›öäk›2ﬁLoﬁ!lﬁﬂLîoﬂö†lﬂ‡Lp‡1m‡·LÉp·¢m·‚N0q‚8Cn‚„P–q„‘≠n„‰ROr‰÷Co‰
+ÂR≠rÂƒoÂ
+ÊRQsÊ÷DpÊ
+ÁR≤sÁ≈'Á
+ËT1tË∏≈pËÈVÃtÈ0qÈÍX^uÍ‡@!ÍÎZ‹uÎﬁ±qÎÏZZvÏ^FrÏÌ\·vÌdÆrÌÓ^bwÓ‰.sÓÔ\›wÔò∆sÔ`cxbGtÒb√xÒå«hÒÚbyÚå©tÚÛbáyÛHuÛÙd[zÙŒ∞uÙıfàzı)vıˆf{ˆû»vˆ˜d≈{˜NBw˜¯h`|¯‡Æw¯
+˘j›|˘Ix˘
+˙lE}˙Œêx˙
+˚l√}˚å?y˚
+¸l_~¸‚…y¸
+˝l„~˝bJz˝
+˛lZ˛ﬁ z˛
+ˇl€ˇNK{ˇ
+ m^Ä a≈{ m‹ÄﬂK|m`ÅaÃ|o·ÅÂL	obÇeMqﬂÇc}s+ÉüÕ}
+u‘É€4~
+wAÑ…≥~		w’Ñ	[		
+yWÖ
+]ê
+
+y”ÖKåyBÜÀk{∆ÜM7Ä{DáÕ:qy÷á…πÄ}4à=NÅõàßŒÅÅ(â3OÇ	ÅæâCœÇ	Å"ä-OÉ	
+Å¿äGœÉ	Å;ãEOÑ	Å†ã)œÑ	
+Å:åCOÖ	ÅøåAœÖ	Åç)OÜ	Å¶ç≥œÜ	É!é#PáÅ™éµPv	
+Öè#—áÅ•è±Pà	
+ Å)ê µ—à 	!Åßê!±Qâ!	
